@@ -1,0 +1,34 @@
+create database SARES;
+use SARES;
+create table profesores(
+num_tarjeta varchar(10) primary key,
+nombre varchar(100),
+contra int,
+turno varchar(10),
+area varchar(50)
+);
+
+create table apoyo(
+num_tarjeta varchar(10) primary key,
+nombre varchar(100),
+contra int,
+turno varchar(10),
+area varchar(50)
+);
+
+create table capital(
+usuario varchar(50),
+contra varchar(50) primary key
+);
+
+create table 45TM(
+dia date,
+hoen varchar(100),
+hosa varchar(100)
+);
+
+create table 58TV(
+dia date,
+hoen varchar(100),
+hosa varchar(100)
+);

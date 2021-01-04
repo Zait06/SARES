@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Servicio Administrativo de Registro de Entrad y Salida</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900|RobotoDraft:400,100,300,500,700,900'>
+<link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+        <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+<div class="pen-title">
+  <h1>Servicio Administrativo de Registro de Entrada y Salida</h1>
+</div>
+<div class="rerun"><a href="http://www.cecyt8.ipn.mx/Paginas/inicio.aspx">CECyT 8</a></div>
+<div class="container">
+  <div class="card"></div>
+  <div class="card">
+    <h1 class="title"><center>REGISTRO PERSONAL <br>DE APOYO</center></h1>
+    <form action="datos1.php" method="GET">
+      <div class="input-container">
+        <input type="text" name="nombre" required/>
+        <label for="Username">Nombre de Usuario</label>
+        <div class="bar"></div>
+      </div>
+      <div class="input-container">
+        <input type="password" name="contra" required/>
+        <label for="Password">Contraseña</label>
+        <div class="bar"></div>
+      </div>
+       <div class="input-container">
+        <input type="text" name="num_tarjeta" required/>
+        <label for="Num_Tar">Numero de Tarjeta</label>
+        <div class="bar"></div>
+      </div>
+       <div class="input-container">
+        <input type="text" name="area" required/>
+        <label for="area">Area</label>
+        <div class="bar"></div>
+      </div>
+      <center>Turno</center><BR><br>
+       <center> <select name="turno" style="animation:none">
+        <option> Matutino </option>
+        <option>Vespertino </option>
+      </select></center><br><br>
+      <div class="button-container">
+        <button><span>Iniciar</span></button>
+      </div>
+            <br>
+            </form><div class="button-container">
+        <button><a href="index.html" style="text-decoration:none"><span>Cancelar</span></a></button>
+      </div>
+    
+  </div>
+</div>
+  </body>
+</html>
